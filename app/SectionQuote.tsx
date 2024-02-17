@@ -63,7 +63,7 @@ export default function SectionQuote() {
         <section ref={ref} className={`safe-x-padding ${styles.sectionDistance}`} aria-label='Quote Section'>
             <div className='relative'>
                 <motion.p initial={{ y: 100, opacity: 0 }} animate={inView ? { y: 0, opacity: 1 } : {}} transition={{ duration: 0.5 }} className={styles.creatorQuotes}>
-                    This portfolio was made with heart and soul, pouring passion and creativity into every detail to bring it to life. It&apos;s not just a portfolio, it&apos;s a labor of love.
+                                           Work over coffee, create over coffee, ideate over coffee, anything over coffee.       
                 </motion.p>
 
                 {animatedFloatingImages.map((item, index) => (
@@ -71,7 +71,7 @@ export default function SectionQuote() {
                 ))}
             </div>
             <motion.p initial={{ y: 100, opacity: 0 }} animate={inView ? { y: 0, opacity: 1 } : {}} transition={{ duration: 0.5, delay: 0.5 }} className={styles.creatorQuotesName} style={suarte.style}>
-                Deri kurniawan
+                Titanic!=Float
             </motion.p>
         </section >
     )

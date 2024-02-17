@@ -73,19 +73,20 @@ export default function SectionHero(): JSX.Element {
                         className='font-montserrat font-bold text-2xl md:text-[28px] lg:text-[32px] text-accent mb-3 text-center xl:text-left'
                         aria-label="Welcome to Deri's Portfolio"
                     >
-                        Welcome to Deri&apos;s Portfolio
+                        Team Titanic!=Float&apos;s
+                        
                     </motion.p>
                     <motion.h2
-                        className='font-montserrat font-extrabold text-5xl md:text-[64px] md:leading-[56px] lg:text-[66px] lg:leading-[88px] gradient-text mb-6 text-center xl:text-left'
-                        aria-label="Full Stack Web Developer"
+                        className='font-montserrat font-extrabold text-5xl md:text-[64px] md:leading-[56px] lg:text-[66px] lg:leading-[88px] gradient-text mb-6 text-center xl:text-left white-text' // Added 'white-text' class here
+                        aria-label="Team Titanic!=Float"
                     >
-                        Full Stack Web Developer
+                        Bean Bots 
                     </motion.h2>
                     <motion.p
                         className='text-base font-medium text-center md:text-xl lg:text-2xl text-accent xl:text-left'
-                        aria-label="I'm Deri Kurniawan. A passionate Full Stack Web Developer based in Sukabumi Regency, West Java, Indonesia."
+                        aria-label="We are Mocha Matrics. We provide mesmerising analytics to help you grow your business."
                     >
-                        I&apos;m Deri Kurniawan. A passionate Full Stack Web Developer based in Sukabumi Regency, West Java, Indonesia.
+                        We are Bean Bots. We provide mesmerising analytics to help you grow your business.
                     </motion.p>
                 </div>
                 {/* second */}

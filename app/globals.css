@@ -5,13 +5,14 @@
 @layer base {
   html {
     @apply font-poppins;
+    background-color: #3e2723; /* Coffee-colored background */
   }
 
   body > div {
     @apply overflow-x-hidden;
   }
 
-  /* remove highlight */
+  /* Remove highlight */
   * {
     -webkit-tap-highlight-color: transparent;
   }
@@ -27,41 +28,66 @@
     @apply px-[20px] md:px-[50px] lg:px-[120px];
   }
 
+  /* Gradient text */
   .gradient-text {
-    @apply text-transparent bg-gradient-to-r from-primary to-secondary bg-clip-text;
+    @apply text-transparent bg-gradient-to-r from-coffee-dark to-coffee-light bg-clip-text; /* Updated gradient colors */
   }
 
+  /* Gradient background */
   .gradient-bg {
-    @apply bg-gradient-to-r from-primary to-secondary;
+    @apply bg-gradient-to-r from-coffee-dark to-coffee-light; /* Updated gradient colors */
   }
 
+  /* Gradient button */
   .gradient-btn {
-    @apply bg-gradient-to-r from-primary to-secondary;
+    @apply bg-gradient-to-r from-cream to-cream; /* Updated gradient colors */
     position: relative;
-    color: #fff;
+    color: #3e2723; /* Coffee-colored text */
     border: none;
     overflow: hidden;
     z-index: 1;
     transition: all 0.3s ease-in-out;
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
   }
+
+  /* Custom Coffee Colors */
+  @layer components {
+    .from-coffee-dark {
+      background-color: #3e2723; /* Coffee-colored background */
+    }
+
+    .to-coffee-light {
+      background-color: #795548; /* Coffee-colored background */
+    }
+
+    .stroke-coffee-light {
+      stroke: #795548; /* Coffee-colored stroke */
+    }
+
+    .from-cream {
+      background-color: #fff4e6; /* Cream-colored background */
+    }
+
+    .to-cream {
+      background-color: #ffe0b3; /* Cream-colored background */
+    }
+  }
+
+  /* Gradient button before pseudo-element */
+  .gradient-btn::before {
+    @apply bg-gradient-to-l from-coffee-dark to-coffee-light rounded-lg absolute -z-[1] top-0 -left-full w-full h-full transition-all duration-500 ease-in-out; /* Updated gradient colors */
+    content: "";
+  }
 }
 
 /* Start of gradient button */
 .gradient-btn:hover {
   transform: scale(1.05);
-  color: #fff;
+  color: #3e2723; /* Coffee-colored text */
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 .gradient-btn:active {
   transform: scale(0.9);
-}
-.gradient-btn::before {
-  @apply bg-gradient-to-l from-secondary to-primary rounded-lg absolute -z-[1] top-0 -left-full w-full h-full transition-all duration-500 ease-in-out;
-  content: "";
-}
-.gradient-btn:hover::before {
-  left: 0;
 }
 /* End of gradient button */
 
@@ -71,7 +97,7 @@
   transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hamburger svg > path.line {
-  @apply stroke-secondary fill-none;
+  @apply stroke-coffee-light fill-none; /* Updated stroke color */
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-width: 3;

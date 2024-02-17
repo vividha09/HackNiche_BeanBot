@@ -27,7 +27,7 @@ export default function SectionLetsConnect() {
             width: 168,
             height: 168,
             tabIndex: 0,
-            onClick: () => window.open('https://linkedin.com/in/deri-kurniawan', '_blank'),
+            onClick: () => window.open('hhttps://www.linkedin.com/in/ettarra-coffee-house-1b9090247/?originalSubdomain=in', '_blank'),
         },
         {
             initial: { y: 50, opacity: 0 },
@@ -40,7 +40,7 @@ export default function SectionLetsConnect() {
             width: 168,
             height: 168,
             tabIndex: 0,
-            onClick: () => window.open('https://instagram.com/deri561', '_blank'),
+            onClick: () => window.open('https://www.instagram.com/ettarra_coffee/', '_blank'),
         },
         {
             initial: { y: -50, opacity: 0 },
@@ -53,7 +53,7 @@ export default function SectionLetsConnect() {
             width: 168,
             height: 168,
             tabIndex: 0,
-            onClick: () => window.open('https://github.com/deri-kurniawan', '_blank')
+            onClick: () => window.open('https://github.com/vividha09/HackNiche', '_blank')
         },
         {
             initial: { y: -50, opacity: 0 },
@@ -79,7 +79,7 @@ export default function SectionLetsConnect() {
             width: 310,
             height: 310,
             tabIndex: 0,
-            onClick: () => window.open('mailto:deri.netuchi@gmail.com', "_self")
+            onClick: () => window.open('mailto:shethshivam123@gmail.com', "_self")
         }
 
     ]
@@ -87,8 +87,8 @@ export default function SectionLetsConnect() {
     return (
         <section ref={ref} className={`safe-x-padding ${styles.sectionDistance} overflow-y-hidden lg:h-[1000px]`} aria-label="Let's Connect Section">
             <div className='text-center'>
-                <motion.h2 initial={{ y: 100, opacity: 0 }} animate={inView ? { y: 0, opacity: 1 } : {}} transition={{ duration: 0.5 }} className={styles.sectionTitle}>Let&apos;s Connect</motion.h2>
-                <motion.p initial={{ y: 100, opacity: 0 }} animate={inView ? { y: 0, opacity: 1 } : {}} transition={{ duration: 0.7 }} className={`${styles.sectionDescription} max-w-[730px] mx-auto`}>Do you have any questions or a project in mind? Let&apos;s connect! I am here to help and excited to hear from you. You can also take a look at my work.</motion.p>
+                <motion.h2 initial={{ y: 100, opacity: 0 }} animate={inView ? { y: 0, opacity: 1 } : {}} transition={{ duration: 0.5 }} className={styles.sectionTitle}>Bean Bot&apos;s Socials</motion.h2>
+                <motion.p initial={{ y: 100, opacity: 0 }} animate={inView ? { y: 0, opacity: 1 } : {}} transition={{ duration: 0.7 }} className={`${styles.sectionDescription} max-w-[730px] mx-auto`}>Like our work? Let&apos;s connect! </motion.p>
             </div>
             <div className='h-full mt-4'>
                 <div className='relative flex flex-col items-center justify-center'>

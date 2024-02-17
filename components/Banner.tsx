@@ -10,7 +10,7 @@ export default function Banner() {
                 <div className="relative bg-gray">
                     <div className='flex flex-row items-center justify-center'>
                         <div className='flex items-center justify-center flex-1 p-4'>
-                            <p className='text-center'>Peace for Russia 🇷🇺 and Ukraine 🇺🇦. Unite for harmony.</p>
+                            <p className='text-center'>Titanic!=Float</p>
                         </div>
                         <button className='p-2 mr-5 text-2xl md:p-4' onClick={() => setIsBannerOpen(false)}>
                             <GrFormClose />

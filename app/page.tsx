@@ -9,8 +9,6 @@ export default function Home() {
   return (
     <div className="safe-layout">
       <SectionHero />
-      <SectionTechnologyStack />
-      <SectionMyLatestProject />
       <SectionLetsConnect />
       <SectionQuote />
       <Footer />

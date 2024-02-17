@@ -3,8 +3,8 @@ import './globals.css'
 import Navbar from '../components/Navbar'
 
 export const metadata = {
-  title: "Home - Portfolio",
-  description: 'Deri Kurniawan Portfolio',
+  title: "Titanic!=Float",
+  description: 'Mocha Matrics',
 }
 
 export default function RootLayout({

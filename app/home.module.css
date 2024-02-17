@@ -1,23 +1,47 @@
+@tailwind components; /* Add this line */
+
 /* Components */
 .__gradientText {
   @apply text-transparent bg-gradient-to-r from-primary to-secondary bg-clip-text;
 }
 /* End of components */
 
+@layer components {
+  .from-coffee-dark {
+    background-color: #3e2723; /* Coffee-colored background */
+  }
+
+  .to-coffee-light {
+    background-color: #795548; /* Coffee-colored background */
+  }
+
+  .from-cream {
+    background-color: #fff4e6; /* Cream-colored background */
+  }
+
+  .to-cream {
+    background-color: #ffe0b3; /* Cream-colored background */
+  }
+}
+
 .sectionTitle {
   @apply mb-6 text-4xl font-extrabold md:text-5xl lg:text-6xl font-montserrat __gradientText;
+  color: #fff; /* White text color */
 }
 
 .sectionDescription {
   @apply text-base font-medium md:text-xl lg:text-2xl text-accent;
+  color: #fff; /* White text color */
 }
 
 .creatorQuotes {
   @apply font-medium text-base md:text-xl leading-[38px] lg:text-2xl text-accent max-w-[933px] mx-auto text-justify;
+  color: #fff; /* White text color */
 }
 
 .creatorQuotesName {
   @apply font-medium text-6xl lg:text-7xl text-accent text-center mt-[20px];
+  color: #fff; /* White text color */
 }
 
 .sectionDistance {

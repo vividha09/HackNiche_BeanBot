@@ -14,11 +14,11 @@ const navlinks = [
         href: "/",
     },
     {
-        name: "Project",
-        href: "/project",
+        name: "Sales Analysis",
+        href: "/pr",
     },
     {
-        name: "Blog",
+        name: "Market Analysis",
         href: "/blog",
     },
 ];
@@ -90,7 +90,7 @@ export default function Navbar(): JSX.Element {
                             ))}
 
                         </ul>
-                        <a className='px-6 py-2 text-white gradient-btn rounded-xl' href="/" download="Deri Kurniawan Resume">Resume</a>
+                        <a className='px-6 py-2 text-white gradient-btn rounded-xl' href="/" >Dashboard</a>
                     </div>
                     {/* mobile hamburger menu */}
                     <div className="z-50 md:hidden">
@@ -106,7 +106,7 @@ export default function Navbar(): JSX.Element {
             </nav>
             {/* mobile menu */}
             <div
-                className={`${isMenuOpen ? "top-0" : "-translate-y-full"} fixed top-0 w-screen h-screen transition-all duration-500 ease-in-out z-40 bg-white`}
+                className={`${isMenuOpen ? "top-0 bg-coffee" : "-translate-y-full"} fixed top-0 w-screen h-screen transition-all duration-500 ease-in-out z-40`}
                 style={{ paddingTop: navbarRef.current ? `${navbarRef.current.offsetHeight}px` : '90px' }}
             >
                 <div className='flex flex-col items-start justify-between p-4 text-lg font-medium lg:hidden lg:gap-8'>
@@ -134,7 +134,13 @@ export default function Navbar(): JSX.Element {
                                 download="Deri Kurniawan Resume"
                             >
                                 <div className="flex items-center justify-between">
-                                    <span className='text-2xl font-semibold'>Resume</span>
+                                    <span className='text-2xl font-semibold'>Analytics</span>
+                                    <span className='text-4xl'>
+                                        <BsFileEarmarkPerson />
+                                    </span>
+                                </div>
+                                <div className="flex items-center justify-between">
+                                    <span className='text-2xl font-semibold'>Dashboard</span>
                                     <span className='text-4xl'>
                                         <BsFileEarmarkPerson />
                                     </span>
