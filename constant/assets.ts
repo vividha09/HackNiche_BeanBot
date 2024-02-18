@@ -27,12 +27,13 @@ export const assets = {
         portfolioWebsite: require("@images/home/myLatestProject/projects/portfolio-website.webp"),
       },
     },
+    
     quote: {
       bulb: require("@images/home/quote/bulb.webp"),
       heart: require("@images/home/quote/heart.webp"),
       paintKit: require("@images/home/quote/paint-kit.webp"),
       teaCup: require("@images/home/quote/tea-cup.webp"),
-    },
+    },//titanic yo?
     technologyStack: {
       expo: require("@images/home/technologyStack/expo.webp"),
       expressJs: require("@images/home/technologyStack/express-js.webp"),

@@ -11,7 +11,7 @@
 # next.js
 /.next/
 /out/
-
+#whole pt is to ignore
 # production
 /build
 

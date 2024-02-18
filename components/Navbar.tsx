@@ -14,13 +14,10 @@ const navlinks = [
         href: "/",
     },
     {
-        name: "Sales Analysis",
-        href: "/pr",
+        name: "Analysis Page",
+        href: "http://127.0.0.1:8000/",
     },
-    {
-        name: "Market Analysis",
-        href: "/blog",
-    },
+    
 ];
 
 export default function Navbar(): JSX.Element {
@@ -90,7 +87,7 @@ export default function Navbar(): JSX.Element {
                             ))}
 
                         </ul>
-                        <a className='px-6 py-2 text-white gradient-btn rounded-xl' href="/" >Dashboard</a>
+                        <a className='px-6 py-2 text-white gradient-btn rounded-xl' href="http://127.0.0.1:5501/dashboard.html" >Dashboard</a>
                     </div>
                     {/* mobile hamburger menu */}
                     <div className="z-50 md:hidden">
