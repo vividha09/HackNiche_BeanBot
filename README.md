@@ -1,4 +1,4 @@
-# HackNiche
+# BeanBot
 
 ## 🤔 Problem Statement
 <p align="left"> The objective is to transform a bustling coffee shop's operations and customer engagement through data analytics and AI. By harnessing web scraping techniques, customer reviews from platforms like Zomato and Swiggy will be analyzed to understand strengths and weaknesses of the shop and its competitors, facilitating strategic improvements. Market basket analysis will uncover customer buying patterns, optimizing menu offerings. An AI-based recommender system will enhance customer experience by suggesting menu items based on preferences. A dynamic dashboard consolidating insights from customer reviews, competitor analysis, and market basket analysis will provide comprehensive business insights for quick decision-making. Additionally, sales data analysis will pinpoint intervals of reduced transaction activity for targeted seasonal promotions. A bonus challenge includes leveraging open-source LLMS for enhanced analytical capabilities, uncovering hidden insights for competitive decision-making.
